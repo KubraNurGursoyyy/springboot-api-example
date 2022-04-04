@@ -22,7 +22,7 @@ public class StoreController {
         return ResponseEntity.ok().build();
     }
 
-    @PostMapping(value = "delete/{id}")
+    @DeleteMapping(value = "delete/{id}")
     public ResponseEntity DeleteProduct(@PathVariable("id") Long id){
         storeService.deleteStore(id);
         return ResponseEntity.ok().build();
