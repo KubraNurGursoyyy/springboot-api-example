@@ -1,3 +1,3 @@
 # SpringBoot Api Example
 
-A simple Api has been created in this repository for beginning level. For database, I use inmemory database named H2.
+A basic Api for beginning level. For database, inmemory database named H2 used.
